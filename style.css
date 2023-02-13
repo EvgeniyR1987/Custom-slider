@@ -21,26 +21,26 @@ input[type="radio"] {
 }
 @media screen and (max-width: 1200px) {
   .js-slider {
-  width: 70%;
-  height: 55vh;
+  width: 75%;
+  height: 65vh;
 }
 }
 @media screen and (max-width: 970px) {
   .js-slider {
-  width: 70%;
-  height: 45vh;
+  width: 80%;
+  height: 55vh;
 }
 }
 @media screen and (max-width: 768px) {
   .js-slider {
-  width: 70%;
-  height: 35vh;
+  width: 85%;
+  height: 45vh;
 }
 }
 @media screen and (max-width: 560px) {
   .js-slider {
-  width: 70%;
-  height: 25vh;
+  width: 90%;
+  height: 35vh;
 }
 }
 .js-slider_item {
