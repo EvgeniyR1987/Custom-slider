@@ -15,24 +15,32 @@ input[type="radio"] {
 }
 .js-slider {
   position: relative;
-  width: 80%;
-  height: 75vh;
+  width: 70%;
+  height: 80vh;
   margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  .js-slider {
+  width: 70%;
+  height: 55vh;
+}
 }
 @media screen and (max-width: 970px) {
   .js-slider {
-  position: relative;
-  width: 80%;
-  height: 65vh;
-  margin: 0 auto;
+  width: 70%;
+  height: 45vh;
 }
 }
 @media screen and (max-width: 768px) {
   .js-slider {
-  position: relative;
-  width: 80%;
-  height: 55vh;
-  margin: 0 auto;
+  width: 70%;
+  height: 35vh;
+}
+}
+@media screen and (max-width: 560px) {
+  .js-slider {
+  width: 70%;
+  height: 25vh;
 }
 }
 .js-slider_item {
